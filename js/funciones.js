@@ -18,7 +18,7 @@ function desencriptar(){
     .replace(/over/ig, "o")
     .replace(/ufat/ig, "u");
     return textoAreaEncriptar.innerHTML = textoEncriptado;
-}
+};
 
 function borrarMensaje(){
     var texto = document.querySelector("#textoArea");
