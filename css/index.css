@@ -1,0 +1,167 @@
+body{
+    font-family: sans-serif;
+    
+}
+
+/*LINEA SEPARADORA*/
+
+.linea{
+    width: 940px;
+    margin: 0 auto;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    padding: 2px;
+    background-color: #384043;
+
+}
+
+/* HEADER */
+header{
+    background-color: #384043;
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+.cajaHeader{
+    width: 940px;
+    margin: 0 auto;
+    position: relative;  
+}
+
+h1{
+    color: white;
+    font-size: 120px;
+}
+
+h2{
+    color: white;
+    font-size: 30px;
+    position: absolute;
+    top:80px;
+    right: 0;
+}
+
+/*CONTENEDOR PRINCIPAL*/
+
+.principal{
+    margin: 0 auto;
+    width: 740px;
+    padding: 20px 20px 0px 20px;
+    position: relative;
+}
+
+.principal div {
+    display: inline-block;
+    vertical-align: top;
+    box-sizing: border-box;
+}
+
+.areaTexto #textoArea{
+    width: 350px;
+    height: 280px;
+    border: 5px solid #384043;  
+    border-radius: 5px;
+    text-align: center;
+    font-weight: bold;
+}
+
+.areaTexto #textoEncriptado{
+    width: 280px;
+    height: 280px;
+    border: 5px solid #384043;  
+    border-radius: 5px;
+    text-align: center;
+    font-weight: bold;
+    position: absolute;
+    right: 0;
+    margin-right: 10px;
+    
+}
+
+/* COMENTARIO DE BOTONES */
+
+.comentario {
+    width: 740px;
+    margin: 0 auto;
+}
+
+.comentario li {
+    font-weight: bold;
+    font-size: 12px;
+    color: #384043;
+    margin-top: 5px;
+    margin-left: 10px;
+    margin-bottom: 5px;
+}
+
+
+
+/* BOTONES */
+
+#botones {
+    width: 740px;
+    padding: 10px;
+    margin: 0 auto;
+    position: relative;
+    
+}
+
+#botones button {
+    width: 20%;
+    height: 35px;
+    display: inline-block;
+    box-sizing: border-box;
+    border: none;
+    border-radius: 15px;
+    background-color: #384043;
+    font-size: 16px;
+    color: white;
+    margin-top: 5px;
+    
+} 
+
+#botones .bt-encriptar{
+    margin-right: 40px;
+    margin-left: 10px;
+}
+
+#botones .bt-copiar{
+    position: absolute;
+    right: 0;
+    margin-right: 65px;
+}
+
+/*FOOTER*/
+
+footer{
+    background-color: #384043;
+    padding: 70px;
+    box-sizing: border-box;
+}
+/*ICONOS FOOTER*/
+.iconos{
+    width: 940px;
+    margin: 0 auto;
+    position: relative;
+    text-align: center;
+    
+}
+
+.iconos a{
+    background-color: #384043;
+    font-size: 30px;
+    color: white;
+    border: none;
+    display: inline-block;
+}
+/*TEXTO PIE DE PAGINA*/
+.cajaFooter{
+    width: 940px;
+    margin: 0 auto;
+    position: relative; 
+}
+
+.cajaFooter p{
+    text-align: center;
+    color: white;
+}
