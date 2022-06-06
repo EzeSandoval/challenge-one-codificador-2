@@ -13,4 +13,4 @@ botonDesencriptar.addEventListener("click", function(){
     
 botonCopiar.addEventListener("click", function(){
    copiarTexto();
-})
+});
